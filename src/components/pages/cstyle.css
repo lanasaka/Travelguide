@@ -1,0 +1,48 @@
+
+
+.group {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+p{
+  font-size: 20px;
+}
+
+.input1,
+select {
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.input1 {
+  flex: 7;
+  margin-right: 10px; 
+}
+
+select {
+  flex: 3; 
+  margin-right: 10px; 
+}
+.container1 {
+  max-width: 800px; 
+  margin: 50px auto; 
+  padding: 30px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; 
+  text-align: center; 
+  color: whitesmoke; 
+
+ 
+  background-image: 
+    linear-gradient(rgba(43, 52, 153, 0.5), rgba(43, 52, 153, 0.5)), 
+    url('https://img.freepik.com/premium-vector/money-transfer-global-currency_115579-1115.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+}

@@ -1,0 +1,176 @@
+.main {
+  padding: 40px 20px;
+}
+
+.secTitle .title {
+  font-size: 24px;
+  position: relative;
+  width: max-content;
+  color: black;
+  margin: 1rem 0;
+  z-index: 2;
+
+  &::after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 120px;
+    right: 0;
+    bottom: 5px;
+    z-index: -1;
+  }
+}
+
+.stars {
+  color: rgb(255, 235, 124);
+}
+
+.secContent.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.detailsButton {
+  background-color: #2B3499;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: auto;
+  font-size: 16px;
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detailsButton:hover {
+  background-color: #444ec4;
+}
+
+.singleDestination {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #eeeffa;
+  box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+    transition: 0.3s ease;
+  }
+}
+
+.singleDestination .imageDiv img {
+  width: 140%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0;
+  margin-left: 0.5px;
+}
+
+.cardInfo {
+  padding: 15px;
+}
+
+.destTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.contient .name {
+  font-style: italic;
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contient .date {
+  font-style: italic;
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 85px;
+}
+
+.price h5 {
+  font-size: 2rem;
+  color: black;
+  margin-left: 50px;
+}
+
+.desc p {
+  font-size: 14px;
+  color: hsl(240, 4%, 36%);
+  font-weight: 500;
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.icon {
+  margin-right: 5px;
+  color: grey;
+  font-size: 20px;
+}
+
+.Checkicon {
+  margin-right: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.fees {
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-top: 1.5px solid grey;
+  border-bottom: 1.5px solid grey;
+  display: flex;
+  align-items: center;
+
+  span {
+    color: hsl(240, 4%, 36%);
+    max-width: 100px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+small {
+  text-align: center;
+  background-color: #2B3499;
+  border-radius: 1rem;
+  color: white;
+  padding: 1px 10px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+/* Add the following CSS rule to select every fourth .singleDestination element */
+.singleDestination:nth-child(4n) {
+  margin-right: 0; /* Remove the right margin for every fourth element */
+}
+
+/* Adjust the margin for all .singleDestination elements */
+.singleDestination {
+  margin: 0 auto 0 0; /* Margin for each element (top, right, bottom, left) */
+}
+
+/* Clear the right margin for the last element in each row */
+.singleDestination:nth-child(4n+4) {
+  margin-right: 0;
+}
+.book{
+  margin-left: -55px;
+}

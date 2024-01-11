@@ -1,0 +1,174 @@
+.hotels {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-image: url('https://www.nghotels.com.tr/media/ttjnadwv/ng-hotels-enjoy-promo-3.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.total {
+  color: black;
+  flex: 1;
+}
+
+.dateInput {
+  &:last-child {
+    margin-left: 20px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  mix-blend-mode: hard-light;
+}
+
+img {
+  position: absolute;
+  height: 80%;
+  width: 110%;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  transform-origin: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.toursContent {
+  width: 100%;
+  height: max-content;
+  padding: 8rem 1.5rem 3rem;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .textDiv {
+    padding: 2rem 0;
+
+    .toursTitle {
+      position: relative;
+      font-size: 1.8rem;
+      bottom: 80px;
+      right: 355px;
+    }
+  }
+
+  .cardDiv {
+    position: relative;
+    padding: 2rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    gap: 1rem;
+    bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 970px;
+    margin: auto;
+    flex-direction: row;
+
+    label {
+      display: block;
+      color: hsl(240, 4%, 36%);
+      padding-bottom: 10px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .priceInput input {
+      width: 150px;
+    }
+
+    .input {
+      height: 40px;
+      padding: 0 1rem;
+      background: rgb(239, 239, 239);
+      border-radius: 3rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      width: 220px;
+
+      input {
+        display: inline-flex;
+        flex: 1;
+        background: none;
+        border: none;
+        outline: none;
+        width: calc(100% - 2rem);
+        font-size: 13px;
+        font-weight: 500;
+
+        &::placeholder {
+          font-size: 13px;
+        }
+      }
+.min{
+  margin-bottom: 200px;
+}
+.max{
+  margin-bottom: 200px;
+
+}
+      .icon {
+        font-size: 18px;
+        color: black !important;
+        margin-left: 10px;
+      }
+
+      .input[type=range] {
+        background: blue;
+      }
+    }
+  }
+  .searchOptions.flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .searchOptions.flex .icon {
+    margin-right: 8px;
+  }
+
+  .searchOptions {
+    position: absolute;
+    background: #2B3499;
+    top: 30px;
+
+    column-gap: 0.8rem;
+
+    border-radius: 3rem;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    cursor: pointer;
+    top: 120px;
+    font-size: 18px;
+    padding: 3px 6px;
+    width: 150px;
+
+    &:hover {
+      background: #414fe7;
+    }
+
+    .icon {
+      font-size: 16x;
+      color: white;
+    }
+  }
+}
