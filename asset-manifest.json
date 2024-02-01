@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/travelguide/static/css/main.8174bfe0.css",
+    "main.js": "/travelguide/static/js/main.798dae38.js",
+    "static/media/img(8).jpg": "/travelguide/static/media/img(8).bbefde221c2febb9775f.jpg",
+    "static/media/cold.jpg": "/travelguide/static/media/cold.b05cada6d8a6b6d95254.jpg",
+    "static/media/img(7).jpg": "/travelguide/static/media/img(7).79fa5e5a44f44822b41a.jpg",
+    "static/media/img(1).jpg": "/travelguide/static/media/img(1).dbe7254790cabb203a2e.jpg",
+    "static/media/img(5).jpg": "/travelguide/static/media/img(5).e06c5430890f1496b592.jpg",
+    "static/media/img(9).jpg": "/travelguide/static/media/img(9).a8455ee33727e95e1ac5.jpg",
+    "static/media/img(2).jpg": "/travelguide/static/media/img(2).23b126a34eb7409edde0.jpg",
+    "static/media/img(6).jpg": "/travelguide/static/media/img(6).2ebe30cdc8d70c891abd.jpg",
+    "static/media/img(4).jpg": "/travelguide/static/media/img(4).2fa2f8bcf66febcbc9d9.jpg",
+    "static/media/img(3).jpg": "/travelguide/static/media/img(3).b08f5d62465283d424c9.jpg",
+    "static/media/hot.jpg": "/travelguide/static/media/hot.3d657990458c520c0aa0.jpg",
+    "static/media/img-1.jpg": "/travelguide/static/media/img-1.53f4843759ebec256cb9.jpg",
+    "static/media/home-5.jpg": "/travelguide/static/media/home-5.d382f73c8ad21c905073.jpg",
+    "static/media/img-8.jpg": "/travelguide/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "static/media/img(12).jpg": "/travelguide/static/media/img(12).1021802dc0f0443d4263.jpg",
+    "static/media/img(11).jpg": "/travelguide/static/media/img(11).c885cf6382374e8ced10.jpg",
+    "index.html": "/travelguide/index.html",
+    "main.8174bfe0.css.map": "/travelguide/static/css/main.8174bfe0.css.map",
+    "main.798dae38.js.map": "/travelguide/static/js/main.798dae38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8174bfe0.css",
+    "static/js/main.798dae38.js"
+  ]
+}
